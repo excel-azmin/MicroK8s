@@ -12,6 +12,14 @@ sudo snap install microk8s --classic
 microk8s status --wait-ready
 ```
 
+![image](https://github.com/excel-azmin/MicroK8s/assets/92359442/850cdf8f-2146-44ee-a0e6-fae2b0f12185)
+
+
+```
+sudo usermod -a -G microk8s azmin
+newgrp microk8s
+```
+
 * Turn on the services you want
 
 ```
